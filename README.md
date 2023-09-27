@@ -3,11 +3,11 @@ A pipeline for ChIP-Seq and HT-SELEX motif benchmarking for HOCOMOCO v12.
 It requires additional software to be placed in the specified directories.
 
 ## Additional software
-1. [*MACRO-PERFECTOS-APE*|https://github.com/autosome-ru/macro-perfectos-ape] —
+1. [*MACRO-PERFECTOS-APE*](https://github.com/autosome-ru/macro-perfectos-ape) —
    place the file ```ape.jar``` into the directory ```./external_programs```.
-2. [*Bedtools*|https://bedtools.readthedocs.io/en/latest/content/installation.html] —
+2. [*Bedtools*](https://bedtools.readthedocs.io/en/latest/content/installation.html) —
    place the file ```bedtools.static``` into the directory ```./external_programs```.
-3. [*SPRY-SARUS __v2.0.2__*|https://github.com/autosome-ru/sarus] —
+3. [*SPRY-SARUS __v2.0.2__*](https://github.com/autosome-ru/sarus) —
    place the file ```sarus-2.0.2.jar``` into the directory ```./external_programs```.
 
 ## Adjusting the threads number
