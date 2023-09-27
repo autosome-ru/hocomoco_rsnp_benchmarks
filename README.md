@@ -2,6 +2,15 @@
 A pipeline for ChIP-Seq and HT-SELEX motif benchmarking for HOCOMOCO v12.
 It requires additional software to be placed in the specified directories.
 
+## Python requirements
+Your Python version must be 3.8 or higher.
+### Python libraries
+You must have these Python packages installes:
+* NumPy
+* pandas
+* SciPy
+* scikit-learn
+
 ## Additional software
 1. [*MACRO-PERFECTOS-APE*](https://github.com/autosome-ru/macro-perfectos-ape) —
    place the file ```ape.jar``` into the directory ```./external_programs```.
