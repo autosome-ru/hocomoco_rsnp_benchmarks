@@ -10,7 +10,7 @@ It requires additional software to be placed in the specified directories.
 3. [*SPRY-SARUS __v2.0.2__*|https://github.com/autosome-ru/sarus] —
    place the file ```sarus-2.0.2.jar``` into the directory ```./external_programs```.
 
-## Adjusting threads number
+## Adjusting the threads number
 To increase the number of threads for computing write the exact number into ```./procfile```
 without any other symbols. The default value is __1__ which means single-threaded computing.
 
