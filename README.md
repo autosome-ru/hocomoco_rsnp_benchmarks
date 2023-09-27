@@ -5,7 +5,7 @@ It requires additional software to be placed in the specified directories.
 ## Python requirements
 Your Python version must be 3.8 or higher.
 ### Python libraries
-You must have these Python packages installes:
+You must have these Python packages installed:
 * NumPy
 * pandas
 * SciPy
