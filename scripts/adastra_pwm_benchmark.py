@@ -142,8 +142,9 @@ def write_sequence(row, motif_length, outfile):
     id = f'{row["ID"]}_{row["fdrp_bh_alt"]:.5f}'
     coords = subprocess.Popen(['echo', f'{chr}\t{start}\t{end}'],
                               stdout=subprocess.PIPE)
-    output = subprocess.check_output(['bedtools', 'getfasta',
-                                      '-fi', REF_PATH, '-bed', 'stdin'],
+    output = subprocess.check_output(['../external_programs/bedtools.static',
+                                      'getfasta', '-fi', REF_PATH, '-bed',
+                                      'stdin'],
                                      stdin=coords.stdout)
     sequence = str(output, 'utf-8').split('\n')[1]
     if ref.upper() != sequence[motif_length - 1].upper():
